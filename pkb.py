@@ -52,7 +52,7 @@ def cli(insert, query):
     	insert()
 
     if query:
-		query(query)
+	query(query)
 
 #########################################################
 
