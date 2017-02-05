@@ -1,8 +1,16 @@
 # PKB
 A low-tech command line tool for adding and querying a PKB - Personal Knowledge Base
 
-Install python dependencies, install mongo command line tool (https://docs.mongodb.com/manual/installation/) 
+https://medium.com/@nchackerian/wa-peek-into-personal-knowledge-management-systems-851a59413fcb#.go96348dl
 
-Run a local mongo server: mongod --dbpath="./db/"
+Install python dependencies for this project, install mongo (https://docs.mongodb.com/manual/installation/) 
 
-Run either pkb --insert a or pkb --query "WHATYOUWANTTOSEARCHHERE"
+Run pkb to create the db folder for your KB
+
+Run a local mongo server: $:`mongod --dbpath="./db/"`
+
+Now you can add to your PKB with:
+$:`pkb --insert a`
+
+And query it with
+$:`pkb --query "WHATYOUWANTTOSEARCHHERE"`
