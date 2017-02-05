@@ -3,7 +3,7 @@ A low-tech command line tool for adding and querying a PKB - Personal Knowledge 
 
 https://medium.com/@nchackerian/wa-peek-into-personal-knowledge-management-systems-851a59413fcb#.go96348dl
 
-Install python dependencies for this project, install mongo (https://docs.mongodb.com/manual/installation/) 
+Install python dependencies for this project and install mongo (https://docs.mongodb.com/manual/installation/) 
 
 Run pkb to create the db folder for your KB
 
