@@ -7,9 +7,9 @@ import gridfs
 import os
 
 # Create db if not existing
-# where = os.getcwd()
-# if not os.path.isdir(where+"/db/"):
-# 	os.mkdir("db")
+where = os.getcwd()
+if not os.path.isdir(where+"/db/"):
+	os.mkdir("db")
 
 #########################################################
 
