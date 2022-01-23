@@ -1,8 +1,6 @@
 # PKB
 A low-tech command line tool for adding and querying a PKB - Personal Knowledge Base (uses key value pairs)
 
-https://medium.com/@nchackerian/wa-peek-into-personal-knowledge-management-systems-851a59413fcb#.go96348dl
-
 Install python dependencies for this project and install mongo (https://docs.mongodb.com/manual/installation/) 
 
 ## 1.
