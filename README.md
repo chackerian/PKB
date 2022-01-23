@@ -5,12 +5,13 @@ https://medium.com/@nchackerian/wa-peek-into-personal-knowledge-management-syste
 
 Install python dependencies for this project and install mongo (https://docs.mongodb.com/manual/installation/) 
 
-Run pkb to create the db folder for your KB
-
+## 1.
 Run a local mongo server: $:`mongod --dbpath="./db/"`
 
+## 2.
 Now you can add to your PKB with:
-$:`pkb --insert a` (this does not insert 'a', it merely begins the process for adding key value pairs)
+$:`pkb --insert a` 
 
+## 3.
 And query it with
 $:`pkb --query "WHATYOUWANTTOSEARCHHERE"`
